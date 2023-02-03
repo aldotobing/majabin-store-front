@@ -1,6 +1,6 @@
 [build]
-  publish = "build"
-  command = "echo 'default context'"
+  command = "npm run build"
+  publish = "out"
 
-  [[plugins]]
+[[plugins]]
   package = "@netlify/plugin-nextjs"
